@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fullscreen_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#49FCD4"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_image_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-2000px"
+        android:layout_marginTop="-2000px"
+        android:layout_marginRight="-2000px"
+        android:layout_marginBottom="-2000px"
+        android:background="#49FCD4"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:lineSpacingExtra="0dp"
+        android:text=" Text Camera \n \n ==   \nTE--XT\nC(  )A\nME--RA"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10.5dp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:lineHeight="20px" />
+
+</FrameLayout>
